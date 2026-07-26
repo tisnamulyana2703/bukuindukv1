@@ -34,7 +34,7 @@ export const PrintCover: React.FC = () => {
             PEMERINTAH {schoolData.kabupaten.toUpperCase()}
           </h2>
           <h2 className="text-xl font-bold tracking-widest uppercase">
-            PEMERINTAH {schoolData.namaSekolah.toUpperCase()}
+            {schoolData.namaSekolah.toUpperCase()}
           </h2>
         </div>
 
