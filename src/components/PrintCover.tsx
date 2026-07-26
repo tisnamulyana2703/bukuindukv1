@@ -32,7 +32,10 @@ export const PrintCover: React.FC = () => {
           </div>
           <h2 className="text-xl font-bold tracking-widest uppercase">
             PEMERINTAH {schoolData.kabupaten.toUpperCase()}
-          </h2>          
+          </h2>
+          <h2 className="text-xl font-bold tracking-widest uppercase">
+            PEMERINTAH {schoolData.namaSekolah.toUpperCase()}
+          </h2>
         </div>
 
         {/* Big Title Section */}
