@@ -176,7 +176,7 @@ export const PrintIdentitas: React.FC = () => {
             
             <div className="h-16"></div>
 
-            <p className="font-black underline uppercase text-sm">{schoolData.namaKepalaSekolah}</p>
+            <p className="font-black underline propercase text-sm">{schoolData.namaKepalaSekolah}</p>
             <p className="text-xs font-sans">NIP. {schoolData.nipKepalaSekolah}</p>
           </div>
         </div>
