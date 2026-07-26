@@ -21,7 +21,7 @@ export const PrintBukuIndukDengan: React.FC = () => {
           <h1 className="font-black text-lg uppercase tracking-wider">{schoolData.namaSekolah}</h1>
           <h2 className="font-bold text-sm uppercase tracking-wide">LEMBAR BUKU INDUK SISWA (NILAI & DESKRIPSI CAPAIAN)</h2>
           <p className="text-[11px] text-slate-700 font-semibold">
-            KELAS {selectedClass} &bull; SEMESTER {selectedSemester} &bull; TAHUN AJARAN {academicYear.tahunAjaran}
+            KELAS {selectedClass} &bull; SEMESTER {selectedSemester}
           </p>
         </div>
 
