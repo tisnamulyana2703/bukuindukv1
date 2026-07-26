@@ -19,7 +19,7 @@ export const PrintIdentitas: React.FC = () => {
         {/* Kop Surat Sekolah */}
         <div className="border-b-4 border-double border-black pb-3 text-center space-y-1">
           <h2 className="font-extrabold text-base tracking-wider uppercase">
-            PEMERINTAH KOTA / KABUPATEN {schoolData.kabupaten.toUpperCase()}
+            PEMERINTAH {schoolData.kabupaten.toUpperCase()}
           </h2>
           <h1 className="font-black text-xl uppercase tracking-widest text-slate-900">
             {schoolData.namaSekolah}
