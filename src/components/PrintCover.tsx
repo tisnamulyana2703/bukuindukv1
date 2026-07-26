@@ -31,11 +31,8 @@ export const PrintCover: React.FC = () => {
             )}
           </div>
           <h2 className="text-xl font-bold tracking-widest uppercase">
-            PEMERINTAH KOTA / KABUPATEN {schoolData.kabupaten.toUpperCase()}
-          </h2>
-          <h3 className="text-base font-semibold uppercase tracking-wider">
-            DINAS PENDIDIKAN DAN KEBUDAYAAN
-          </h3>
+            PEMERINTAH {schoolData.kabupaten.toUpperCase()}
+          </h2>          
         </div>
 
         {/* Big Title Section */}
